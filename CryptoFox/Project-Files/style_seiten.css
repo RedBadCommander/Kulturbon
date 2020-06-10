@@ -1,5 +1,21 @@
 body{
-  background-color: #323847
+  background-color: #191C22;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /*font-family: 'Nunito', sans-serif;*/
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .pfeil-oben{
