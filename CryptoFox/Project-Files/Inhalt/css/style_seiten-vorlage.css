@@ -38,10 +38,13 @@ h1{
   position: fixed;
   top: 0;
   left: 0;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .logo{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 73px;
   height: 86px;
 }
