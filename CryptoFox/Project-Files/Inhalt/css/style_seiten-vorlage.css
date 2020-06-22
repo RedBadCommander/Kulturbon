@@ -70,3 +70,22 @@ h1{
   cursor: pointer;
   display: inline-block;
 }
+
+@media (max-width: 800px) {
+  .pfeil-oben{
+    bottom: 10px;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: 117px;
+    height: 117px;
+  }
+  .pfeil-unten{
+    bottom: 10px;
+    right: 0;
+    top: auto;
+    left: auto;
+    width: 117px;
+    height: 117px;
+  }
+}
