@@ -9,6 +9,11 @@ h1{
   font-family: 'Nunito', sans-serif;
 }
 
+p {
+  font-size: 32px;
+  line-height: 42px;
+}
+
 .content{
   display: flex;
   justify-content: center;
@@ -35,10 +40,27 @@ h1{
 }
 
 .nav{
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
   justify-content: space-around;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 48px;
+  padding: 0 20px;
+
+
+  /*padding: 0 20px 0 20px; =
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px; */
 }
 
 .logo{
@@ -71,9 +93,23 @@ h1{
   display: inline-block;
 }
 
+.pfeil-oben a,
+.pfeil-unten a {
+  display: block;
+}
+
 @media (max-width: 800px) {
+  p {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .nav-item {
+    font-size: 36px;
+  }
+
   .pfeil-oben{
-    bottom: 10px;
+    bottom: -10px;
     left: 0;
     right: auto;
     top: auto;
@@ -85,6 +121,16 @@ h1{
     right: 0;
     top: auto;
     left: auto;
+    width: 117px;
+    height: 117px;
+  }
+
+  .pfeil-oben svg {
+    width: 117px;
+    height: 117px;
+  }
+
+  .pfeil-unten svg {
     width: 117px;
     height: 117px;
   }
