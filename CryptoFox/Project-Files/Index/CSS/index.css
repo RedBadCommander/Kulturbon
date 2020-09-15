@@ -23,6 +23,15 @@ p {
   margin: 0 auto;
 }
 
+.pfeil-oben{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 188px;
+  height: 188px;
+}
+
+
 .pfeil-unten{
   position: fixed;
   bottom: 0;
