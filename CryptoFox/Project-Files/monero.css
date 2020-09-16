@@ -1,0 +1,106 @@
+body{
+  background-color: #191C22;
+  background-image: url(img/moneroqr.png);
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /*font-family: 'Nunito', sans-serif;*/
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pfeil-oben{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 188px;
+  height: 188px;
+}
+
+
+.pfeil-unten{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 188px;
+  height: 188px;
+}
+
+.nav{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 48px;
+  padding: 0 20px;
+
+
+  /* padding: 0 20px 0 20px; =
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px; */
+}
+
+.logo{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 73px;
+  height: 86px;
+}
+
+.index{
+  /*font-family: 'Nunito', sans-serif;*/
+  color: #ffffff;
+  font-size: 48px;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.inhalt{
+  /*font-family: 'Nunito', sans-serif;*/
+  font-size: 48px;
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+@media (max-width: 720px) {
+  p {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .nav-item {
+    font-size: 36px;
+  }
